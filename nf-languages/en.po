@@ -1,0 +1,946 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Neoforum\n"
+"POT-Creation-Date: 2019-04-20 20:58+0300\n"
+"PO-Revision-Date: 2019-04-20 20:59+0300\n"
+"Last-Translator: \n"
+"Language-Team: Dmitrij Mogil\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: neo visual editor/neo-visual-editor.php:31
+msgid "Select font size"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:41
+msgid "Select font color"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:52
+msgid "Select font"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:59
+msgid "Set bold text"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:62
+msgid "Set italic text"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:65
+msgid "Set underline text"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:68
+msgid "Set strikethrough  text"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:73
+msgid "Set left alignment"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:76
+msgid "Set center alignment"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:79
+msgid "Set right alignment"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:82
+msgid "Set justify alignment"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:86
+msgid "Create link"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:86
+msgid "Enter URL"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:89
+msgid "Remove link"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:92
+msgid "Insert image"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:92
+msgid "Enter image address"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:96
+msgid "Wrap text in quote block"
+msgstr ""
+
+#: neo visual editor/neo-visual-editor.php:99
+msgid "Mark text as offtopic"
+msgstr ""
+
+#: neoforum.php:57
+msgid "Uninstall"
+msgstr ""
+
+#: nf-admin/admin-panel.php:21
+msgid "Save Settings"
+msgstr ""
+
+#: nf-admin/admin-panel.php:45
+msgid "Create new section"
+msgstr ""
+
+#: nf-admin/admin-panel.php:46
+msgid "Create new forum"
+msgstr ""
+
+#: nf-admin/admin-panel.php:47
+msgid "Recalculate all forums stats"
+msgstr ""
+
+#: nf-admin/admin-panel.php:63 nf-admin/admin-panel.php:203
+msgid "Enter username here"
+msgstr ""
+
+#: nf-admin/admin-panel.php:70
+msgid ""
+"Notice: all added users and moderators will be able to read and moderate all "
+"subforums of forum where they were added."
+msgstr ""
+
+#: nf-admin/admin-panel.php:71
+msgid "Close"
+msgstr ""
+
+#: nf-admin/admin-panel.php:91
+msgid "Awaiting reports:"
+msgstr ""
+
+#: nf-admin/admin-panel.php:120
+msgid "Trash"
+msgstr ""
+
+#: nf-admin/admin-panel.php:124
+msgid "Delete ALL trash"
+msgstr ""
+
+#: nf-admin/admin-panel.php:127 nf-includes/search.php:15
+msgid "Search in topics"
+msgstr ""
+
+#: nf-admin/admin-panel.php:130 nf-includes/search.php:17
+msgid "Search in posts"
+msgstr ""
+
+#: nf-admin/admin-panel.php:133 nf-includes/search.php:19
+msgid "After"
+msgstr ""
+
+#: nf-admin/admin-panel.php:136 nf-includes/search.php:22
+msgid "Before"
+msgstr ""
+
+#: nf-admin/admin-panel.php:140 nf-includes/search.php:26
+msgid "Username"
+msgstr ""
+
+#: nf-admin/admin-panel.php:144 nf-includes/search.php:30
+msgid "Forum"
+msgstr ""
+
+#: nf-admin/admin-panel.php:146
+msgid "All forums"
+msgstr ""
+
+#: nf-admin/admin-panel.php:155 nf-includes/search.php:42
+msgid "Including words"
+msgstr ""
+
+#: nf-admin/admin-panel.php:158 nf-includes/search.php:45
+msgid "Words in topic title"
+msgstr ""
+
+#: nf-admin/admin-panel.php:162 nf-includes/search.php:50
+msgid "Search!"
+msgstr ""
+
+#: nf-admin/admin-panel.php:165
+msgid "Choose action"
+msgstr ""
+
+#: nf-admin/admin-panel.php:166
+msgid "Restore selected"
+msgstr ""
+
+#: nf-admin/admin-panel.php:167 nf-includes/search.php:49
+msgid "Delete selected"
+msgstr ""
+
+#: nf-admin/admin-panel.php:190 nf-admin/admin-panel.php:254
+msgid "Users"
+msgstr ""
+
+#: nf-admin/admin-panel.php:192
+msgid "Recalculate all users stats"
+msgstr ""
+
+#: nf-admin/admin-panel.php:194
+msgid "Administrators"
+msgstr ""
+
+#: nf-admin/admin-panel.php:195
+msgid "Supermoderators"
+msgstr ""
+
+#: nf-admin/admin-panel.php:196
+msgid "Banned users"
+msgstr ""
+
+#: nf-admin/admin-panel.php:198
+msgid ""
+"Notice: ALL users with admin rights in site automatically has admin rights "
+"in forum"
+msgstr ""
+
+#: nf-admin/admin-panel.php:202
+msgid "Find user"
+msgstr ""
+
+#: nf-admin/admin-panel.php:212
+msgid "Make supermoderator"
+msgstr ""
+
+#: nf-admin/admin-panel.php:213
+msgid ""
+"Supermoderators has moderator capabiblies in all forums. They can ban, "
+"delete, approve, edit posts, and they can see all restricted forums."
+msgstr ""
+
+#: nf-admin/admin-panel.php:214
+msgid "Make administrator"
+msgstr ""
+
+#: nf-admin/admin-panel.php:215
+msgid ""
+"Same as supermoderators, and they can unban users banned by other admins, "
+"moderators and supermoderators. Still, managing options of Neoforum require "
+"admin capabilities in the site admin panel."
+msgstr ""
+
+#: nf-admin/admin-panel.php:218 nf-admin/functions.php:843
+msgid "Choose date when ban will expire"
+msgstr ""
+
+#: nf-admin/admin-panel.php:220 nf-admin/functions.php:845
+msgid "Leave comment"
+msgstr ""
+
+#: nf-admin/admin-panel.php:221 nf-admin/functions.php:846
+#: nf-admin/functions.php:1089 nf-includes/template.php:370
+msgid "Ban user"
+msgstr ""
+
+#: nf-admin/admin-panel.php:230
+msgid "NeoForum settings"
+msgstr ""
+
+#: nf-admin/admin-panel.php:238
+msgid "Forums"
+msgstr ""
+
+#: nf-admin/admin-panel.php:246
+msgid "Trash posts and topics"
+msgstr ""
+
+#: nf-admin/admin-panel.php:262
+msgid "Reports"
+msgstr ""
+
+#: nf-admin/functions.php:61 nf-admin/functions.php:85
+#: nf-admin/functions.php:123 nf-admin/functions.php:161
+#: nf-admin/functions.php:196 nf-admin/functions.php:212
+#: nf-admin/functions.php:229 nf-admin/functions.php:245
+#: nf-admin/functions.php:262 nf-admin/functions.php:290
+#: nf-admin/functions.php:312 nf-admin/functions.php:346
+#: nf-admin/functions.php:387 nf-admin/functions.php:433
+#: nf-admin/functions.php:595 nf-admin/functions.php:611
+#: nf-admin/functions.php:626 nf-admin/functions.php:643
+#: nf-admin/functions.php:657 nf-admin/functions.php:698
+#: nf-admin/functions.php:734 nf-admin/functions.php:803
+#: nf-admin/functions.php:826 nf-admin/functions.php:856
+#: nf-admin/functions.php:873 nf-admin/functions.php:897
+#: nf-admin/functions.php:912 nf-admin/functions.php:937
+#: nf-admin/functions.php:1065 nf-includes/edit-topic-handler.php:41
+#: nf-includes/new-post-handler.php:17 nf-includes/new-topic-handler.php:42
+#: nf-includes/new-topic.php:10 nf-includes/posts.php:434
+#: nf-includes/posts.php:461 nf-includes/posts.php:484
+#: nf-includes/posts.php:525 nf-includes/posts.php:570
+#: nf-includes/posts.php:581 nf-includes/template.php:104
+#: nf-includes/template.php:111 nf-includes/topics.php:442
+#: nf-includes/topics.php:463 nf-includes/topics.php:483
+#: nf-includes/topics.php:503 nf-includes/topics.php:523
+#: nf-includes/topics.php:543 nf-includes/topics.php:563
+#: nf-includes/topics.php:583 nf-includes/topics.php:614
+#: nf-includes/topics.php:644 nf-includes/topics.php:664
+#: nf-includes/topics.php:706 nf-includes/topics.php:738
+#: nf-includes/topics.php:797 nf-includes/topics.php:887
+#: nf-includes/topics.php:920 nf-includes/users.php:582
+#: nf-includes/users.php:641 nf-includes/users.php:664
+#: nf-includes/users.php:696
+msgid "You can't do this action!"
+msgstr ""
+
+#: nf-admin/functions.php:92 nf-admin/functions.php:130
+#: nf-admin/functions.php:168 nf-admin/functions.php:318
+#: nf-admin/functions.php:352 nf-admin/functions.php:439
+#: nf-includes/new-topic-handler.php:15 nf-includes/new-topic.php:16
+msgid "Wrong forum id!"
+msgstr ""
+
+#: nf-admin/functions.php:98 nf-admin/functions.php:136
+#: nf-admin/functions.php:174 nf-admin/functions.php:324
+#: nf-admin/functions.php:364 nf-admin/functions.php:451
+#: nf-includes/template.php:40 nf-includes/topics.php:678
+#: nf-includes/topics.php:720 nf-includes/topics.php:760
+msgid "Forum does not exists!"
+msgstr ""
+
+#: nf-admin/functions.php:200
+msgid "New forum"
+msgstr ""
+
+#: nf-admin/functions.php:200
+msgid "Description"
+msgstr ""
+
+#: nf-admin/functions.php:249
+msgid "New section"
+msgstr ""
+
+#: nf-admin/functions.php:268
+msgid "Title is empty!"
+msgstr ""
+
+#: nf-admin/functions.php:273
+msgid "Title is too long, max length is 256 characters!"
+msgstr ""
+
+#: nf-admin/functions.php:296
+msgid "Description is too long, max length is 1024 characters!"
+msgstr ""
+
+#: nf-admin/functions.php:332
+msgid "Remove this user from moderators"
+msgstr ""
+
+#: nf-admin/functions.php:358 nf-admin/functions.php:445
+msgid "Wrong user id!"
+msgstr ""
+
+#: nf-admin/functions.php:381 nf-admin/functions.php:1059
+msgid "No users found"
+msgstr ""
+
+#: nf-admin/functions.php:457 nf-includes/edit-topic-handler.php:36
+#: nf-includes/new-topic-handler.php:37 nf-includes/posts.php:27
+msgid "User does not exists!"
+msgstr ""
+
+#: nf-admin/functions.php:463
+msgid "User already in list!"
+msgstr ""
+
+#: nf-admin/functions.php:492 nf-admin/functions.php:493
+#: nf-admin/functions.php:528 nf-admin/functions.php:529
+#: nf-admin/functions.php:534 nf-admin/functions.php:535
+msgid "Edit section title"
+msgstr ""
+
+#: nf-admin/functions.php:508 nf-admin/functions.php:562
+msgid "Moderators"
+msgstr ""
+
+#: nf-admin/functions.php:514 nf-admin/functions.php:568
+msgid "Users who can read restricted forum"
+msgstr ""
+
+#: nf-admin/functions.php:521 nf-admin/functions.php:574
+msgid "Subforums"
+msgstr ""
+
+#: nf-admin/functions.php:542 nf-includes/forums.php:31
+#: nf-includes/topics.php:826 nf-includes/topics.php:840
+#: nf-includes/user-page.php:27 nf-includes/user-page.php:75
+msgid "Topics"
+msgstr ""
+
+#: nf-admin/functions.php:548 nf-admin/functions.php:1009
+#: nf-admin/functions.php:1030 nf-includes/forums.php:27
+#: nf-includes/posts.php:94 nf-includes/topics.php:826
+#: nf-includes/topics.php:840 nf-includes/topics.php:856
+#: nf-includes/user-page.php:26 nf-includes/user-page.php:74
+#: nf-themes/classic/post.php:16
+msgid "Posts"
+msgstr ""
+
+#: nf-admin/functions.php:668 nf-admin/functions.php:709
+#: nf-includes/posts.php:592
+msgid "Items has diffetent types!"
+msgstr ""
+
+#: nf-admin/functions.php:741
+msgid "Done"
+msgstr ""
+
+#: nf-admin/functions.php:776
+msgid "Leave post"
+msgstr ""
+
+#: nf-admin/functions.php:776 nf-admin/functions.php:1042
+#: nf-includes/topics.php:325
+msgid "Delete post"
+msgstr ""
+
+#: nf-admin/functions.php:776 nf-admin/functions.php:1043
+msgid "In topic"
+msgstr ""
+
+#: nf-admin/functions.php:777 nf-admin/functions.php:1031
+#: nf-admin/functions.php:1044
+msgid "In forum"
+msgstr ""
+
+#: nf-admin/functions.php:777 nf-admin/functions.php:1009
+#: nf-admin/functions.php:1018 nf-admin/functions.php:1030
+#: nf-admin/functions.php:1044 nf-includes/topics.php:37
+msgid "Author"
+msgstr ""
+
+#: nf-admin/functions.php:777
+msgid "Reported by"
+msgstr ""
+
+#: nf-admin/functions.php:777 nf-admin/functions.php:1008
+#: nf-admin/functions.php:1018 nf-admin/functions.php:1029
+#: nf-admin/functions.php:1044
+msgid "Created"
+msgstr ""
+
+#: nf-admin/functions.php:777
+msgid "Reported"
+msgstr ""
+
+#: nf-admin/functions.php:777
+msgid "Reporter's comment"
+msgstr ""
+
+#: nf-admin/functions.php:777
+msgid "Post content"
+msgstr ""
+
+#: nf-admin/functions.php:869
+msgid "You can't ban administrator or supermoderator!"
+msgstr ""
+
+#: nf-admin/functions.php:878
+msgid "You must choose date!"
+msgstr ""
+
+#: nf-admin/functions.php:893
+msgid "You have no rights to unban users banned by other moderators"
+msgstr ""
+
+#: nf-admin/functions.php:932
+msgid ""
+"This user is site administrator, he must be removed from site admins to take "
+"off his admin capabilities on forum"
+msgstr ""
+
+#: nf-admin/functions.php:1008 nf-admin/functions.php:1018
+#: nf-admin/functions.php:1044
+msgid "Deleted"
+msgstr ""
+
+#: nf-admin/functions.php:1010 nf-admin/functions.php:1018
+msgid "Was in forum"
+msgstr ""
+
+#: nf-admin/functions.php:1010
+msgid "Restore topic"
+msgstr ""
+
+#: nf-admin/functions.php:1010 nf-admin/functions.php:1032
+msgid "Delete topic completely"
+msgstr ""
+
+#: nf-admin/functions.php:1017
+msgid "Restore post"
+msgstr ""
+
+#: nf-admin/functions.php:1017
+msgid "Delete post completely"
+msgstr ""
+
+#: nf-admin/functions.php:1017
+msgid "Was in topic"
+msgstr ""
+
+#: nf-admin/functions.php:1085 nf-includes/template.php:314
+#: nf-includes/template.php:318
+msgid "Administrator"
+msgstr ""
+
+#: nf-admin/functions.php:1086 nf-includes/template.php:321
+msgid "Supermoderator"
+msgstr ""
+
+#: nf-admin/functions.php:1087
+msgid "Banned by"
+msgstr ""
+
+#: nf-admin/functions.php:1087
+msgid "Expires"
+msgstr ""
+
+#: nf-admin/functions.php:1087
+msgid "Comment"
+msgstr ""
+
+#: nf-admin/functions.php:1088
+msgid "Remove admin"
+msgstr ""
+
+#: nf-admin/functions.php:1088
+msgid "Make admin or supermoderator"
+msgstr ""
+
+#: nf-admin/functions.php:1089
+msgid "Unban user"
+msgstr ""
+
+#: nf-admin/functions.php:1105
+msgid "Oops, some problems occured"
+msgstr ""
+
+#: nf-admin/functions.php:1113
+msgid "Back"
+msgstr ""
+
+#: nf-admin/functions.php:1126
+msgid "You were banned. Ban expires "
+msgstr ""
+
+#: nf-admin/settings.php:12
+msgid "General"
+msgstr ""
+
+#: nf-admin/settings.php:19
+msgid "Forum page URL"
+msgstr ""
+
+#: nf-admin/settings.php:28
+msgid "Forum theme"
+msgstr ""
+
+#: nf-admin/settings.php:50
+msgid "Guests can create topics"
+msgstr ""
+
+#: nf-admin/settings.php:59
+msgid "Guests can answer in topics"
+msgstr ""
+
+#: nf-admin/settings.php:68
+msgid ""
+"When enabled, all new topics will require premoderation before publishing"
+msgstr ""
+
+#: nf-admin/settings.php:77
+msgid "Number of posts to be displayed on one page inside topic"
+msgstr ""
+
+#: nf-admin/settings.php:86
+msgid "Number of topics to be displayed on single page inside forum"
+msgstr ""
+
+#: nf-admin/settings.php:95
+msgid "Users uploads settings"
+msgstr ""
+
+#: nf-admin/settings.php:99
+msgid "Users can upload files"
+msgstr ""
+
+#: nf-admin/settings.php:102
+msgid "Max file size (bytes)"
+msgstr ""
+
+#: nf-admin/settings.php:105
+msgid "Max file folder size for each user (bytes)"
+msgstr ""
+
+#: nf-includes/edit-topic-handler.php:14 nf-includes/edit-topic.php:11
+#: nf-includes/new-post-handler.php:12
+msgid "Wrong topic id!"
+msgstr ""
+
+#: nf-includes/edit-topic-handler.php:18
+msgid "This topic doesn't exists!"
+msgstr ""
+
+#: nf-includes/edit-topic-handler.php:22 nf-includes/new-topic-handler.php:23
+#: nf-includes/topics.php:753
+msgid "Topic title is empty!"
+msgstr ""
+
+#: nf-includes/edit-topic-handler.php:26 nf-includes/new-topic-handler.php:27
+#: nf-includes/posts.php:14 nf-includes/posts.php:418
+msgid "Your post is empty!"
+msgstr ""
+
+#: nf-includes/edit-topic-handler.php:31 nf-includes/new-topic-handler.php:32
+#: nf-includes/posts.php:22
+msgid "Wrong user id value"
+msgstr ""
+
+#: nf-includes/edit-topic-handler.php:47
+msgid "Topic successfully edited"
+msgstr ""
+
+#: nf-includes/edit-topic.php:15
+msgid "Topic doesn't exists!"
+msgstr ""
+
+#: nf-includes/forums.php:36
+msgid "Last post"
+msgstr ""
+
+#: nf-includes/forums.php:44
+msgid "There is no posts yet"
+msgstr ""
+
+#: nf-includes/forums.php:52 nf-includes/forums.php:55
+msgid "From"
+msgstr ""
+
+#: nf-includes/new-post-handler.php:23 nf-includes/new-topic-handler.php:48
+msgid "You must enter your nickname!"
+msgstr ""
+
+#: nf-includes/new-post-handler.php:27 nf-includes/new-topic-handler.php:52
+msgid "Your nickname must be no longer then 256 characters!"
+msgstr ""
+
+#: nf-includes/new-post-handler.php:35
+msgid "New post successfully created"
+msgstr ""
+
+#: nf-includes/new-topic-handler.php:19
+msgid "This forum doesn't exists!"
+msgstr ""
+
+#: nf-includes/new-topic-handler.php:60
+msgid "New topic successfully created"
+msgstr ""
+
+#: nf-includes/posts.php:18
+msgid "Wrong topic id value"
+msgstr ""
+
+#: nf-includes/posts.php:32 nf-includes/template.php:48
+#: nf-includes/topics.php:417
+msgid "Topic does not exists!"
+msgstr ""
+
+#: nf-includes/posts.php:53
+msgid "New replies"
+msgstr ""
+
+#: nf-includes/posts.php:59
+msgid "There is new posts in topic"
+msgstr ""
+
+#: nf-includes/posts.php:59
+msgid "you subscribed on."
+msgstr ""
+
+#: nf-includes/posts.php:102 nf-themes/classic/post.php:24
+msgid "Post link"
+msgstr ""
+
+#: nf-includes/posts.php:257 nf-includes/users.php:618
+#, php-format
+msgid "File size must be less then %d bytes"
+msgstr ""
+
+#: nf-includes/posts.php:263
+#, php-format
+msgid "Not enough free space to save file. You have only %d free bytes"
+msgstr ""
+
+#: nf-includes/posts.php:274 nf-includes/users.php:610
+msgid "File type is forbidden!"
+msgstr ""
+
+#: nf-includes/posts.php:513
+msgid "All posts were deleted successfully"
+msgstr ""
+
+#: nf-includes/posts.php:515
+msgid "Some posts were not deleted: access denied."
+msgstr ""
+
+#: nf-includes/posts.php:518
+msgid "No posts were deleted: access denied!"
+msgstr ""
+
+#: nf-includes/posts.php:558
+msgid "All posts were moved successfully"
+msgstr ""
+
+#: nf-includes/posts.php:560
+msgid "Some posts were not moved: access denied."
+msgstr ""
+
+#: nf-includes/posts.php:563
+msgid "No posts were moved: access denied!"
+msgstr ""
+
+#: nf-includes/search.php:32
+msgid "All forums..."
+msgstr ""
+
+#: nf-includes/template.php:96
+msgid "Main page"
+msgstr ""
+
+#: nf-includes/template.php:97
+msgid "Profile"
+msgstr ""
+
+#: nf-includes/template.php:98
+msgid "Search"
+msgstr ""
+
+#: nf-includes/template.php:325
+msgid "Banned"
+msgstr ""
+
+#: nf-includes/template.php:328
+msgid "Moderator"
+msgstr ""
+
+#: nf-includes/template.php:385 nf-includes/topics.php:392
+#: nf-includes/topics.php:408 nf-includes/topics.php:731
+msgid "Start new topic"
+msgstr ""
+
+#: nf-includes/template.php:406 nf-includes/topics.php:364
+#: nf-includes/user-page.php:50
+msgid "Attachments"
+msgstr ""
+
+#: nf-includes/template.php:419
+msgid "Post edited"
+msgstr ""
+
+#: nf-includes/template.php:419 nf-includes/topics.php:52
+msgid "by"
+msgstr ""
+
+#: nf-includes/topics.php:45
+msgid "Answers"
+msgstr ""
+
+#: nf-includes/topics.php:46
+msgid "Views"
+msgstr ""
+
+#: nf-includes/topics.php:205 nf-includes/topics.php:218
+msgid "Leave a reply"
+msgstr ""
+
+#: nf-includes/topics.php:207 nf-includes/topics.php:394
+msgid "Enter your nickname"
+msgstr ""
+
+#: nf-includes/topics.php:226 nf-includes/topics.php:328
+msgid "Edit post"
+msgstr ""
+
+#: nf-includes/topics.php:237
+msgid "Commit changes"
+msgstr ""
+
+#: nf-includes/topics.php:239 nf-includes/topics.php:911
+msgid "Cancel"
+msgstr ""
+
+#: nf-includes/topics.php:255
+msgid "Choose option..."
+msgstr ""
+
+#: nf-includes/topics.php:256 nf-includes/topics.php:285
+msgid "Move topic"
+msgstr ""
+
+#: nf-includes/topics.php:257 nf-includes/topics.php:282
+msgid "Delete topic"
+msgstr ""
+
+#: nf-includes/topics.php:258
+msgid "Move selected posts to existing topic"
+msgstr ""
+
+#: nf-includes/topics.php:259
+msgid "Start new topic with selected posts"
+msgstr ""
+
+#: nf-includes/topics.php:260
+msgid "Delete selected posts"
+msgstr ""
+
+#: nf-includes/topics.php:277 nf-includes/topics.php:322
+msgid "Quote"
+msgstr ""
+
+#: nf-includes/topics.php:288 nf-includes/topics.php:357
+#: nf-includes/topics.php:383
+msgid "Edit topic"
+msgstr ""
+
+#: nf-includes/topics.php:291
+msgid "Close topic"
+msgstr ""
+
+#: nf-includes/topics.php:292
+msgid "Open topic"
+msgstr ""
+
+#: nf-includes/topics.php:295
+msgid "Approve topic"
+msgstr ""
+
+#: nf-includes/topics.php:296
+msgid "Unapprove topic"
+msgstr ""
+
+#: nf-includes/topics.php:299
+msgid "Sticky topic"
+msgstr ""
+
+#: nf-includes/topics.php:300
+msgid "Unsticky topic"
+msgstr ""
+
+#: nf-includes/topics.php:303
+msgid "Mark topic as solved"
+msgstr ""
+
+#: nf-includes/topics.php:304
+msgid "Unmark topic as solved"
+msgstr ""
+
+#: nf-includes/topics.php:307
+msgid "Subscribe topic"
+msgstr ""
+
+#: nf-includes/topics.php:308
+msgid "Unsubscribe topic"
+msgstr ""
+
+#: nf-includes/topics.php:312 nf-includes/topics.php:331
+msgid "Report"
+msgstr ""
+
+#: nf-includes/topics.php:397
+msgid "Topic title"
+msgstr ""
+
+#: nf-includes/topics.php:398
+msgid "Topic description"
+msgstr ""
+
+#: nf-includes/topics.php:429
+msgid "Topic already in trash!"
+msgstr ""
+
+#: nf-includes/topics.php:607
+msgid "You already subscribed on this topic"
+msgstr ""
+
+#: nf-includes/topics.php:687 nf-includes/topics.php:767
+msgid "Section cannot contain topics!"
+msgstr ""
+
+#: nf-includes/topics.php:727
+msgid "Enter topic title here"
+msgstr ""
+
+#: nf-includes/topics.php:728
+msgid "Enter topic desctiption here"
+msgstr ""
+
+#: nf-includes/topics.php:907 nf-includes/topics.php:940
+msgid "You already reported this post!"
+msgstr ""
+
+#: nf-includes/topics.php:911
+msgid "Send report"
+msgstr ""
+
+#: nf-includes/topics.php:932
+msgid "Report length must be less then 1024 characters!"
+msgstr ""
+
+#: nf-includes/uninstall.php:12
+msgid ""
+"This action will delete all forum information - topics, posts, user data "
+"etc. Are you sure? Operation cannot be undone."
+msgstr ""
+
+#: nf-includes/uninstall.php:15
+msgid "I'm sure. Uninstall!"
+msgstr ""
+
+#: nf-includes/uninstall.php:17
+msgid "No, bring me back"
+msgstr ""
+
+#: nf-includes/user-page.php:24
+msgid "Delete avatar"
+msgstr ""
+
+#: nf-includes/user-page.php:30
+msgid "Edit"
+msgstr ""
+
+#: nf-includes/user-page.php:31 nf-includes/user-page.php:88
+msgid "User caption"
+msgstr ""
+
+#: nf-includes/user-page.php:38
+msgid "Save user caption"
+msgstr ""
+
+#: nf-includes/users.php:543 nf-includes/users.php:554
+#: nf-includes/users.php:565
+msgid "Wrong contact format! Use only valid links!"
+msgstr ""
+
+#: nf-includes/users.php:572
+msgid "Invalid contact type!"
+msgstr ""
+
+#: nf-themes/classic/single-forum.php:24
+msgid "There is no topics yet"
+msgstr ""

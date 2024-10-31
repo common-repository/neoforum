@@ -1,0 +1,29 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<g>
+    <polygon style="fill:#FFC49C;" points="3.5,38.5 3.5,13.286 19.998,3.58 36.5,13.286 36.5,38.5    "></polygon>
+    <g>
+        <path style="fill:#A16A4A;" d="M19.998,4.16L36,13.572V38H4V13.572L19.998,4.16 M19.998,3L3,13v26h34V13L19.998,3L19.998,3z"></path>
+    </g>
+</g>
+<g>
+    <polygon style="fill:#735F63;" points="19.998,5.645 1.5,16.954 1.5,12.896 19.998,1.586 38.5,12.896 38.5,16.954  "></polygon>
+    <g>
+        <path style="fill:#4D3E40;" d="M19.998,2.172L38,13.176v2.887L20.519,5.378l-0.522-0.319l-0.522,0.319L2,16.063v-2.887
+            L19.998,2.172 M19.998,1L1,12.615v5.231L19.998,6.231L39,17.846v-5.231L19.998,1L19.998,1z"></path>
+    </g>
+</g>
+<rect x="4" y="34" style="fill:#E0AC89;" width="32" height="4"></rect>
+<g>
+    <rect x="8.5" y="21.5" style="fill:#B08159;" width="10" height="17"></rect>
+    <g>
+        <path style="fill:#704E34;" d="M18,22v16H9V22H18 M19,21H8v18h11V21L19,21z"></path>
+    </g>
+</g>
+<circle style="fill:#704E34;" cx="16.5" cy="30.5" r="0.5"></circle>
+<g>
+    <rect x="23.5" y="21.5" style="fill:#8BB7F0;" width="8" height="7"></rect>
+    <g>
+        <path style="fill:#4E7AB5;" d="M31,22v6h-7v-6H31 M32,21h-9v8h9V21L32,21z"></path>
+    </g>
+</g>
+</svg>

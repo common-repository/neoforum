@@ -1,0 +1,3 @@
+.neoforum_loading_pseudo::before, .neoforum_loading{
+    background-image:url("../../nf-admin/img/loading.svg") !important;
+}

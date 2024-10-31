@@ -1,0 +1,18 @@
+.ne-editor{
+    min-height: 250px;
+    border:1px solid gray;
+    padding:10px;
+    margin:15px 0;
+    background: white;
+    font-size: 14px;
+}
+.ne-panel button{
+    padding: 10px;
+    min-height: 49px;
+    min-width: 47px;
+    vertical-align: text-top;
+}
+.ne-divider{
+    width: 7px;
+    display: inline-block;
+}

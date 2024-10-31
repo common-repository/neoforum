@@ -1,0 +1,982 @@
+.neoforum {
+    font-family: Arial, sans-serif;
+    padding: 11px;
+}
+
+.neoforum_offtopic_hidden {
+    background-color: #7e9dc136;
+}
+
+.neoforum_offtopic button {
+    padding: 6px;
+    margin: 6px;
+}
+
+.neoforum_quote_author {
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 11px;
+}
+
+.neoforum_quote, .neoforum blockquote {
+    background-image: url(../img/quotes.svg);
+    background-size: 135px;
+    background-position: 24px 0;
+    background-repeat: no-repeat;
+    background-color: #d4c39763;
+    border:1px solid gray;
+    padding:10px;
+    line-height: 15px;
+}
+
+.neoforum_reports_message_wrap {
+    text-align: right;
+}
+
+.neoforum_reports_message {
+    position: fixed;
+    top: 0;
+    background: #ff0000b3;
+    z-index: 999999;
+    padding: 27px 14px 6px 14px;
+    color: white !important;
+    font-size: 20px;
+    border-radius: 0 0 10px 10px;
+    transition: 0.2s ease 0s;
+}
+
+.neoforum_reports_message:hover {
+    background-color: #ff0000c7;
+    transition: 0.2s ease 0s;
+}
+
+.neoforum_subforums_title {
+    padding-left: 13px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 18px;
+    line-height: 12px;
+}
+
+.neoforum_moder {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.neoforum_forum_moderators_title {
+    font-size: 14px;
+    line-height: 0px;
+    padding-top: 12px;
+}
+
+.neoforum_forum_moderators {
+    width: 100%;
+    padding: 0 12px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.neoforum_contacts br {
+    /* height: 2px; */
+    /* width: 2px; */
+}
+
+.neoforum_userfiles {
+    width: 100%;
+}
+
+.neoforum_search_post {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 13px;
+    font-size: 17px;
+}
+
+.neoforum_search_post_content {
+    width: 100%;
+    padding: 14px;
+}
+
+.neoforum_search_delete {
+    background-repeat: no-repeat;
+    background-size: 72%;
+    background-position: center center;
+    padding: 17px;
+}
+
+.neoforum_search_filters_wrap {
+    margin-bottom: 25px;
+}
+
+.neoforum_search_topic {
+    padding: 14px;
+    border: 1px solid gray;
+    margin: 5px;
+    border-radius: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+.neoforum_search_topic>* {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.neoforum_search_topic .neoforum_search_delete, .neoforum_search_post .neoforum_search_delete {
+    background-image: url(../img/delete.svg);
+    background-color: #d8d8d8;
+}
+
+.neoforum_search_topic_title {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.neoforum_search_filters label {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 438px;
+    padding: 5px 0;
+    margin: 0 5px;
+}
+
+.neoforum_post_edited_text {padding-left: 30px;font-size: 17px;font-style: italic;}
+
+.neoforum_remove_attach {
+    padding-left: 30px;
+    background-image: url("../img/attach.svg");
+    background-repeat: no-repeat;
+    background-size: 29px;
+    background-position: left center;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #9ac8e21a;
+    cursor: pointer;
+    transition: 0.2s ease 0s;
+}
+
+.neoforum_remove_attach:hover {
+    background-image: url("../img/cross.svg");
+    transition: 0.2s ease 0s;
+    background-color: #e29aa81a;
+}
+
+.neoforum_post_select {
+    margin: 0px 10px;
+}
+
+.neoforum_topic_button::before, .neoforum_post_button::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 27px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    margin: 0 4px;
+    transition: 0.2s ease 0s;
+    background-size: contain;
+}
+
+.neoforum_topic_button:hover::before, .neoforum_post_button:hover::before {
+    transition: 0.2s ease 0s;
+    transform: scale(1.2);
+}
+
+.neoforum_topic_button:active::before, .neoforum_post_button:active::before {
+    transition: 0.1s ease 0s;
+    transform: scale(1.1);
+}
+
+.neoforum_topic_unsticky_button::before {
+    background-image: url("../img/unpin.svg");
+}
+
+.neoforum_topic_unsubscribe_button::before {
+    background-image: url("../img/unsubscribe.svg");
+}
+
+.neoforum_topic_subscribe_button::before {
+    background-image: url("../img/subscribe.svg");
+}
+
+.neoforum_topic_unsolved_button::before {
+    background-image: url("../img/not-solved.svg");
+}
+
+.neoforum_topic_solved_button::before {
+    content: "";
+    width: 35px;
+    vertical-align: text-bottom;
+    background-image: url(../img/solved.svg);
+}
+
+.neoforum_topic_sticky_button::before {
+    background-image: url("../img/pin.svg");
+    background-size: 124%;
+}
+
+.neoforum_topic_unapprove_button::before {
+    background-image: url("../img/unapprove.svg");
+}
+
+.neoforum_topic_approve_button::before {
+    background-image: url("../img/approve.svg");
+}
+
+.neoforum_topic_open_button::before {
+    background-image: url("../img/unlock.svg");
+}
+
+.neoforum_topic_close_button::before {
+    background-image: url("../img/lock.svg");
+}
+
+.neoforum_topic_move_button::before {
+    background-image: url(../img/move.svg);
+}
+
+.neoforum_topic_edit_button::before, .neoforum_post_edit_button::before {
+    background-image: url("../img/edit2.svg");
+}
+
+.neoforum_topic_delete_button::before, .neoforum_post_delete_button::before {
+    background-image: url("../img/trash.svg");
+}
+
+.neoforum_topic_quote_button::before {
+    background-image: url("../img/quote.svg");
+}
+
+.neoforum_user_caption {
+    padding: 8px 19px;
+    position: relative;
+    font-size: 15px;
+}
+
+.neoforum_user_caption::before {
+    content: "";
+    position: absolute;
+    background: gray;
+    width: 206px;
+    height: 1px;
+}
+
+.neoforum_attachments {
+    padding: 12px 30px;
+}
+
+.neoforum_attachments a {
+    font-size: 16px;
+}
+
+.neoforum_attachments a::before {
+    content: url("../img/attach.svg");
+    display: inline-block;
+    height: 13px;
+    width: 22px;
+    vertical-align: sub;
+    margin-right: 6px;
+}
+
+.neoforum_attachments_header {
+    font-style: italic;
+    font-size: 17px;
+}
+
+.neoforum_userpage {
+    border: 6px ridge #8080804d;
+    border-radius: 25px;
+    padding: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[name="neoforum_avatar"] {
+    margin: 19px 0;
+}
+
+.neoforum_usercaption_content {
+    padding: 6px;
+    font-size: 15px;
+}
+
+.neoforum_edit_usercaption {
+    background-color: transparent;
+    font-size: 0;
+    background-image: url("../img/edit.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.neoforum_edit_usercaption:hover {
+    background-color: transparent;
+    transform: scale(1.2);
+    background-image: url(../img/edit.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.neoforum_userdata-wrap {
+    padding-left: 86px;
+    padding-top: 63px;
+}
+
+.neoforum_username {
+    text-align: center;
+}
+
+.neoforum_user_online::before, .neoforum_user_offline::before {
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.neoforum_user_online::before {
+    background-image: url("../img/online-user.svg");
+}
+
+.neoforum_user_offline::before {
+    background-image: url(../img/offline-user.svg);
+}
+
+.neoforum_username-wrap {
+    max-width: 250px;
+}
+
+.neoforum_userdata-container {
+    display: flex;
+}
+
+.neoforum_user_avatar {text-align: center;}
+
+.neoforum_contacts label, .neoforum_contacts a {
+    display: block;
+    padding-left: 49px;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: left center;
+    margin: 5px;
+}
+
+.neoforum_contacts input[type="text"] {
+    height: 42px;
+    min-width: 400px;
+}
+
+.neoforum_contacts label::before {}
+
+.neoforum_user_contacts {
+    margin-top: 8px;
+}
+
+.neoforum_pagination_current {
+    display: inline-block;
+    margin: 0 4px;
+    color: #656464;
+}
+
+.neoforum_pagination_item {
+    color: white !important;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.neoforum_pagination {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 6px 13px;
+    background-color: #00000078;
+}
+
+.neoforum_pagination:empty {
+    display: none;
+}
+
+.neoforum_create_topic, .neoforum_mark_as_read {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 14px 0px;
+    background-color: #385aa2;
+    border-radius: 9px;
+    color: white !important;
+    line-height: 44px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.neoforum_mark_as_read {
+    float: right;
+}
+
+button.neoforum_mark_as_read::after {
+    /* content: ""; */
+    /* display: table; */
+    /* clear: both; */
+}
+
+.neoforum_create_topic:hover, .neoforum_mark_as_read:hover {
+    transition: 0.2s ease 0s;
+    background-color: #5e7dbf;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.neoforum_breadcrumbs {
+    margin: 15px 0;
+    font-size: 19px;
+    display: flex;
+}
+
+.neoforum_breadcrumbs_item {
+    display: inline-block;
+    background-color: #ececec;
+    padding: 2px 20px;
+    position: relative;
+    margin-right: 0px;
+    clip-path: polygon(0px 0px, calc(100% - 14px) 0px, 100% 50%, calc(100% - 14px) 100%, 0 100%, 14px 50%);
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+.neoforum_breadcrumbs_item:hover {
+    background-color: #dcdcdc;
+    transition: 0.2s ease 0s;
+}
+
+.neoforum_breadcrumbs_item:first-child {
+    clip-path: polygon(0px 0px, calc(100% - 14px) 0px, 100% 50%, calc(100% - 14px) 100%, 0 100%);
+    padding-left: 34px;
+    background-image: url(../img/home.svg);
+    background-size: 21px;
+    background-repeat: no-repeat;
+    background-position: 7px center;
+}
+
+.neoforum_breadcrumbs_item::after {
+    /* content: ""; */
+    right: -14px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 19px 0px 19px 14px;
+    border-color: transparent transparent transparent #ececec;
+    position: absolute;
+}
+
+.neoforum_breadcrumbs_divider {
+    font-size: 0;
+}
+
+.neoforum_forum_topic_list {
+    margin-top: 20px;
+}
+
+.neoforum_online_header {
+    font-size: 16px;
+}
+
+.neoforum_child_forums_block {
+    padding: 2px 5px 5px;
+    border-radius: 13px 13px 0 0;
+    background-image: radial-gradient(#c4cef7, #626694);
+}
+
+.neoforum_online_users .neoforum_username {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.neoforum_online_users {
+    padding: 10px;
+    border-left: 1px solid gray;
+    /* border-radius: 10px; */
+    margin-top: 22px;
+}
+
+.forum_section_title {
+    display: block;
+    color: white !important;
+    padding: 8px;
+}
+
+.neoforum_mainmenu {
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: auto;
+    padding: 0;
+}
+
+.neoforum_mainmenu>li>a {
+    display: inline-block;
+    padding: 14px 21px;
+    background-image: linear-gradient(#6265ca, #b2b6d4);
+    color: white;
+    transition: 0.2s ease 0s;
+    text-decoration: none !important;
+}
+
+.neoforum_mainmenu>li>a:active {
+    box-shadow: 0 0 3px 2px #00000069;
+    transition: 0.2s ease 0s;
+}
+
+.neoforum_mainmenu>li>a:hover {
+    background-image: linear-gradient(#8c8ed2, #7b87dc);
+    transition: 0.2s ease 0s;
+}
+
+.neoforum_mainmenu>li:first-child>a {
+    border-radius: 9px 0 0 9px;
+}
+
+.neoforum_mainmenu>li:last-child>a {
+    border-radius: 0 9px 9px 0;
+}
+
+.neoforum_mainmenu>li:not(:first-child)>a {
+    border-left: 1px solid white;
+}
+
+.neoforum_mainmenu>li>a::after {
+    display: inline-block;
+    height: 100px;
+    width: 1px;
+    background-color: red;
+}
+
+.neoforum_user_contacts>a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    transition: 0.2s ease 0s;
+}
+
+.neoforum_user_contacts>a:hover {
+    transform: scale(1.2);
+    transition: 0.2s ease 0s;
+}
+
+.neoforum_instagram {
+    background-image: url(../img/instagram.svg);
+}
+
+.neoforum_twitter {
+    background-image: url(../img/twitter.svg);
+}
+
+.neoforum_facebook {
+    background-image: url("../img/facebook.svg");
+}
+
+.neoforum_post_control_buttons {
+    text-align: right;
+    padding: 5px 16px;
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.neoforum_topic_moderator .neoforum_firstpost .neoforum_post_control_buttons {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.neoforum_post_control_buttons {}
+
+.neoforum_post_control_buttons>a {
+    color: black;
+    transition: 0.2s ease 0s;
+    text-decoration: none !important;
+}
+
+.neoforum_post_control_buttons>a:hover {
+    transition: 0.2s ease 0s;
+    color: #797878;
+    text-decoration: underline !important;
+}
+
+.neoforum_post_text {
+    min-height: 200px;
+}
+
+.neoforum_post_user_avatar {
+    text-align: center;
+}
+
+.neoforum_post_user_stats {
+    font-size: 14px;
+}
+
+.neoforum_usercaps {
+    text-align: center;
+    font-size: 16px;
+}
+
+.neoforum_supermoderator {
+    color: blue;
+}
+
+.neoforum_moderator {
+    color: gray;
+}
+
+.neoforum_administrator {
+    color: red;
+}
+
+.neoforum_userstatus {
+    text-align: center;
+}
+.neoforum_forum_section {
+    padding: 2px 5px 5px;
+    /* border:1px solid blue; */
+    border-radius: 13px 13px 0 0;
+    background-image: radial-gradient(#c4cef7, #626694);
+    clear: both;
+    margin: 10px 0;
+}
+.neoforum_forum_item {
+    /* border:1px solid gray; */
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 4px;
+    transition: 0.2s ease 0s;
+}
+
+.neoforum_forum_restricted .neoforum_forum_item_icon::before {
+    content:"";
+    background-image: url(../img/notvisible.svg);
+}
+
+.neoforum_forum_closed .neoforum_forum_item_icon::after {
+    content: "";
+    background-image: url(../img/locked.svg);
+}
+
+.neoforum_subforum_item.neoforum_forum_restricted .neoforum_subforum_item_icon::before {
+    content:"";
+    background-image: url(../img/notvisible.svg);
+}
+
+.neoforum_subforum_item.neoforum_forum_closed .neoforum_subforum_item_icon::after {
+    content: "";
+    background-image: url(../img/locked.svg);
+    margin-left: 3px;
+}
+
+.neoforum_forum_new_posts .neoforum_forum_item_icon {
+    background-image: url(../img/forum-new-posts.svg);
+}
+
+.neoforum_subforum_item.neoforum_forum_new_posts .neoforum_subforum_item_icon {
+    background-image: url(../img/forum-new-posts.svg);
+}
+
+.neoforum_forum_item:hover {
+    transition: 0.2s ease 0s;
+    background-color: #f7f7f7;
+}
+.neoforum_forum_item_link{
+    padding:10px;
+    text-decoration: none !important;
+    flex-grow: 1;
+    display: flex;
+    max-width: 80%;
+}
+.neoforum_forum_item_title{
+    color: #5d5d5d;
+}
+.neoforum_forum_item_title:hover, 
+.neoforum_forum_item_title:active,
+.neoforum_forum_item_title:focus {
+    /* text-decoration: none !important; */
+}
+
+.neoforum_forum_item_icon, .neoforum_subforum_item_icon{
+    /* min-width: 75px; */
+    background-image: url(../img/forum.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.neoforum_forum_item_icon {
+    min-height: 75px;
+    min-width: 75px;
+}
+
+.neoforum_forum_item_icon::before, .neoforum_forum_item_icon::after {
+    display: inline-block;
+    width: 64px;
+    height: 50px;
+    background-size: 59%;
+    background-position: 48% 86%;
+    background-repeat: no-repeat;
+}
+
+.neoforum_subforum_item_icon::before, .neoforum_subforum_item_icon::after {
+    display: inline-block;
+    width: 22px;
+    height: 17px;
+    background-size: 65%;
+    background-position: 73% 60%;
+    background-repeat: no-repeat;
+    /* background-color:red; */
+}
+.neoforum_forum_capt {
+    padding-left: 10px;
+    flex-grow: 1;
+    /* max-width: 17%; */
+    line-height: 22px;
+}
+
+.neoforum_forum_item_title {
+    padding: 11px 0;
+}
+.neoforum_forum_item_description{
+    display: block;
+    min-height:25px;
+    font-size:12px;
+    color:#4e4e4e;
+}
+.neoforum_included_forums {
+    width:100%;
+}
+.neoforum_subforum_item {
+    font-size: 17px;
+    padding-left: 43px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease 0s;
+}
+
+.neoforum_subforum_item:hover {
+    transition: 0.2s ease 0s;
+    background-color: #e8e8e8;
+}
+
+a.neoforum_subforum_item.neoforum_forum_closed.neoforum_forum_restricted {}
+
+.neoforum_forum_topics_num, 
+.neoforum_forum_posts_num, 
+.neoforum_forum_last_post {
+    font-size:14px;
+    color:#4e4e4e;
+    text-align:center;
+    margin:0 15px;
+}
+.neoforum_forum_last_post{
+    padding:10px 0;
+    width: 150px;
+}
+
+.neoforum_included_forums {
+    clear:both;
+}
+
+/*styling topics in single forum page*/
+.neoforum_topic .neoforum_topic_new_posts{background-image: url("../img/topic-new-posts.svg");}
+
+.neoforum_topic_link:hover .neoforum_topic_title, 
+.neoforum_topic_link:active .neoforum_topic_title, 
+.neoforum_topic_link:focus .neoforum_topic_title{
+    text-decoration: underline !important;
+}
+
+.neoforum_topic_descr {
+    font-size:12px;
+    color:#4e4e4e;
+}
+
+.neoforum_topic{
+    border:1px solid gray;
+    border-top: 0;
+    display:flex;
+    font-size: 17px;
+    transition: 0.2s ease 0s;
+    background-image: linear-gradient(#ffffff00 39%, #a7c7e83b);
+}
+
+.neoforum_topic_solved::before {
+    background-image: url(../img/check.svg);
+}
+
+.neoforum_topic:hover {
+    background-color: #2bd8d629;
+    transition: 0.2s ease 0s;
+    position: relative;
+    box-shadow: 0 0 12px 0px #dce88363;
+}
+
+.neoforum_topic_new_posts {
+    background-image: linear-gradient(#ffffff00 43%, #a7c7e8ad);
+}
+
+.neoforum_topic_not_approved {
+    background-image: linear-gradient(white 39%, #ff000040);
+}
+
+.neoforum_topic .neoforum_topic_icon {
+    background-image: url("../img/topic.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.neoforum_topic_new_posts .neoforum_topic_icon {
+    background-image: url("../img/topic-new-posts.svg");
+}
+
+.neoforum_topic_icon::before, .neoforum_topic_icon::after{
+    background-size: 55%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    height:42px;
+    width:42px;
+    display:inline-block;
+}
+
+.neoforum_topic_closed .neoforum_topic_icon::after {
+    content:"";
+    background-image: url("../img/locked.svg");
+}
+
+.neoforum_topic_not_solved .neoforum_topic_icon::before {
+    content:"";
+    background-image: url("../img/not-solved.svg");
+}
+
+.neoforum_topic_pinned .neoforum_topic_icon::before {
+    content:"";
+    background-image: url("../img/pin.svg");
+    background-size: 120%;
+    background-position: 5px -13px;
+}
+
+.neoforum_topic_not_approved .neoforum_topic_icon::before {
+    content:"";
+    background-image: url("../img/not-approved.svg");
+    background-size: 55%;
+    background-position: center center;
+}
+
+.neoforum_topic_solved .neoforum_topic_icon::before {
+    content:"";
+    background-image: url(../img/check.svg);
+    background-size: 42%;
+    background-position: right bottom;
+    position: absolute;
+}
+
+.neoforum_topic:first-child {
+    border-top: 1px solid gray;
+}
+
+.neoforum_topic_link{
+    display:block;
+    text-decoration: none !important;
+    padding:5px;
+    flex-grow: 1;
+    display: flex;
+}
+
+.neoforum_topic_icon{
+    min-width: 42px;
+    height: 42px;
+    margin: 3px;
+}
+.neoforum_topic_capt{
+    margin-left: 13px;
+}
+.neoforum_topic_lastpost,
+.neoforum_topic_views_num,
+.neoforum_topic_posts_num,
+.neoforum_topic_author{
+    font-size:15px;
+    padding:2px 2px;
+    margin:0 10px;
+    text-align:center;
+}
+.neoforum_topic_lastpost{
+    width: 250px;
+}
+/*styling posts*/
+.neoforum_post{
+    border: 1px solid #cecece;
+    border-bottom: 0px solid gray;
+    display: flex;
+    background-image: linear-gradient(#ffffff00 71%, #d9e1f3);
+}
+
+.neoforum_post.neoforum_firstpost {
+    border-radius: 17px 17px 0 0;
+    margin-top:10px;
+}
+
+.neoforum_post:last-child {
+    border-radius: 0px 0px 17px 17px;
+    margin-bottom:10px;
+    /*border-bottom:1px solid gray;*/
+}
+.neoforum_post_content{
+    flex-grow: 1;
+}
+
+.neoforum_post_user_info{
+    padding: 5px 10px 15px;
+    width: 200px;
+    flex-shrink: 0;
+    border-right: 1px solid gray;
+}
+.neoforum_post_date{
+    padding:10px;
+    text-align:right;
+    font-style: italic;
+    font-size:14px;
+    margin: 0 17px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.neoforum_post_text{
+    padding:10px 20px 20px;
+    font-size: 14px;
+}
+
+.neoforum_post_user_name{
+    text-align:center;
+}
+.neoforum_topic_answer{
+    background-color: #efefef;
+    margin:20px 0 15px;
+    padding:20px 15px;
+}
+.neoforum_reply_topic{
+    padding:10px 20px 15px;
+}
+
